@@ -1,0 +1,17 @@
+{
+  "name": "contract-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test",
+    "test:unit": "node --test",
+    "check:syntax": "node --check src/contract-search.js && node --check test/contract-search.test.js",
+    "check": "npm run check:syntax && npm test"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
